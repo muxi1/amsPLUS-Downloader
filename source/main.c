@@ -28,8 +28,10 @@ const char *OPTION_LIST[] =
 void refreshScreen(int cursor)
 {
     consoleClear();
-
-    printf("\x1B[36mamsPLUS Downloader: v%s\x1B[37m\n\n\n", APP_VERSION);
+    printf("================================================================================");
+    printf("\x1B[36mamsPLUS Downloader: v%s\x1B[37m\n", APP_VERSION);
+	printf("================================================================================");
+	printf("\n\n\n");
     printf("Druecke (A) zum Downloaden\n\n");
     printf("Druecke (+) zum Beenden\n\n\n");
 
