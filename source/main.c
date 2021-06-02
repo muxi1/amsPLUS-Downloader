@@ -29,15 +29,16 @@ void refreshScreen(int cursor)
 {
     consoleClear();
     printf("================================================================================");
-    printf("\x1B[36mamsPLUS Downloader: v%s\x1B[37m\n", APP_VERSION);
+    printf("\x1B[33mamsPLUS Downloader: v%s\x1B[0m\n", APP_VERSION);
 	printf("================================================================================");
 	printf("\n\n\n");
     printf("Druecke (A) zum Downloaden\n\n");
     printf("Druecke (+) zum Beenden\n\n\n");
 
     for (int i = 0; i < CURSOR_LIST_MAX + 1; i++)		
-	    
-        printf("Download amsPLUS Daten fuer das Update ueber das Tegra Explorer Script");
+	    printf("================================================================================");
+        printf("Download amsPLUS Daten fuer das Update ueber das Tegra Explorer Script\n");
+		printf("================================================================================");
 		printf("\n\n");
 
     consoleUpdate(NULL);

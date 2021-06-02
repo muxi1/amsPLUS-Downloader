@@ -44,7 +44,7 @@ int unzip(const char *output)
 
             entriesPCT = (100.0 / gi.number_entry * i);
             printf("                                                                               \r");
-            printf("Schreibe Datei [%.*f%%]: %.*s\r",2,entriesPCT,52,filename_inzip);
+            printf("\x1B[32mSchreibe Datei [%.*f%%]: %.*s\r\x1B[0m",2,entriesPCT,52,filename_inzip);
             fflush(stdout);
             consoleUpdate(NULL);
 
