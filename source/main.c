@@ -21,7 +21,7 @@
 
 const char *OPTION_LIST[] =
 {
-    "Download amsPLUS-M Daten fuer das Update ueber das Tegra Explorer Script",
+    "Download amsPLUS Daten fuer das Update ueber das Tegra Explorer Script",
     
     };
 
@@ -29,13 +29,13 @@ void refreshScreen(int cursor)
 {
     consoleClear();
 
-    printf("\x1B[36mamsPLUS-M Downloader: v%s\x1B[37m\n\n\n", APP_VERSION);
+    printf("\x1B[36mamsPLUS Downloader: v%s\x1B[37m\n\n\n", APP_VERSION);
     printf("Druecke (A) zum Downloaden\n\n");
     printf("Druecke (+) zum Beenden\n\n\n");
 
-    for (int i = 0; i < CURSOR_LIST_MAX + 1; i++)
-		
-        printf("Download amsPLUS-M Daten fuer das Update ueber das Tegra Explorer Script");
+    for (int i = 0; i < CURSOR_LIST_MAX + 1; i++)		
+	    
+        printf("Download amsPLUS Daten fuer das Update ueber das Tegra Explorer Script");
 		printf("\n\n");
 
     consoleUpdate(NULL);
