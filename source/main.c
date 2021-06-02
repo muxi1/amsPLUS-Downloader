@@ -15,13 +15,13 @@
 
 
 
-#define APP_VERSION             "1.0.6"
+#define APP_VERSION             "1.0.7"
 #define CURSOR_LIST_MAX         0 // Anzahl an Cursorn
 
 
 const char *OPTION_LIST[] =
 {
-    "Download amsPLUS Daten fuer das Update ueber das Tegra Explorer Script",
+    "Download amsPLUS-M Daten fuer das Update ueber das Tegra Explorer Script",
     
     };
 
@@ -29,12 +29,14 @@ void refreshScreen(int cursor)
 {
     consoleClear();
 
-    printf("\x1B[36mamsPLUS Downloader: v%s.\x1B[37m\n\n\n", APP_VERSION);
+    printf("\x1B[36mamsPLUS-M Downloader: v%s\x1B[37m\n\n\n", APP_VERSION);
     printf("Druecke (A) zum Downloaden\n\n");
     printf("Druecke (+) zum Beenden\n\n\n");
 
     for (int i = 0; i < CURSOR_LIST_MAX + 1; i++)
-        printf("[%c] %s\n\n", cursor == i ? 'X' : ' ', OPTION_LIST[i]);
+		
+        printf("Download amsPLUS-M Daten fuer das Update ueber das Tegra Explorer Script");
+		printf("\n\n");
 
     consoleUpdate(NULL);
 }
