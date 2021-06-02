@@ -37,9 +37,9 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   of a homebrew executable (.nro). This is intended to be used for sysmodules.
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
-APP_TITLE   := 	amsPLUS Downloader
-APP_AUTHOR  := 	amsPLUS - forked by PhyniX from a Tool by lTotalJustice
-APP_VERSION := 	1.0.6
+APP_TITLE   := 	amsPLUS-M Downloader
+APP_AUTHOR  := 	amsPLUS-M - forked by PhyniX from a Tool by lTotalJustice
+APP_VERSION := 	1.0.7
 
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
