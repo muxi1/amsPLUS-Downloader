@@ -29,7 +29,7 @@ void refreshScreen(int cursor)
 {
     consoleClear();
     printf("================================================================================");
-    printf("\x1B[33mamsPLUS Downloader: v%s\x1B[0m\n", APP_VERSION);
+    printf("\x1B[36mamsPLUS Downloader: v%s\x1B[0m\n", APP_VERSION);
 	printf("================================================================================");
 	printf("\n\n\n");
     printf("Druecke (A) zum Downloaden\n\n");
