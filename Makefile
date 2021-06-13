@@ -38,8 +38,8 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
 APP_TITLE   := 	amsPLUS Downloader
-APP_AUTHOR  := 	amsPLUS - forked by PhyniX from a Tool by lTotalJustice
-APP_VERSION := 	1.0.7
+APP_AUTHOR  := 	amsPLUS - forked by MUXI from a Tool by lTotalJustice
+APP_VERSION := 	1.0.8
 
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build

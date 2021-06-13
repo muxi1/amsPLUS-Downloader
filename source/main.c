@@ -15,7 +15,7 @@
 
 
 
-#define APP_VERSION             "1.0.7"
+#define APP_VERSION             "1.0.8"
 #define CURSOR_LIST_MAX         0 // Anzahl an Cursorn
 
 
