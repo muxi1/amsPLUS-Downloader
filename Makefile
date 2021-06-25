@@ -39,7 +39,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 #---------------------------------------------------------------------------------
 APP_TITLE   := 	amsPLUS Downloader
 APP_AUTHOR  := 	amsPLUS - forked by MUXI from a Tool by lTotalJustice
-APP_VERSION := 	1.0.8
+APP_VERSION := 	1.0.9
 
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
